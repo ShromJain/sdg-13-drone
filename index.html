@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Drone</title>
+      <title>Astitva</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -25,6 +25,10 @@
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <!-- owl stylesheets --> 
       <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,700,800&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesoeet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+   </head>
    <body>
       <!-- header section start -->
       <div class="header_section header_bg">
@@ -42,7 +46,7 @@
                      <a class="nav-link" href="about.html">About</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="shop.html">Shop</a>
+                     <a class="nav-link" href="awareness.html">Awareness</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="contact.html">Contact Us</a>
@@ -64,8 +68,10 @@
             </div>
          </nav>
          <!-- banner section start -->
-         <div class="banner_section layout_padding">
-            <div id="main_slider">
+<div class="banner_section layout_padding">
+            <div id="main_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
                      <div class="container">
                         <div class="row">
                            <div class="col-md-7">
@@ -79,7 +85,41 @@
                         </div>
                      </div>
                   </div>
+                  <div class="carousel-item">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-md-7">
+                              <div class="image_1"><img src="images/img-1.png"></div>
+                           </div>
+                           <div class="col-md-5">
+                              <h1 class="banner_taital">New Product</h1>
+                              <p class="banner_text">Something that does something</p>
+                              <div class="contact_bt"><a href="contact.html">Shop Now</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-md-7">
+                              <div class="image_1"><img src="images/img-1.png"></div>
+                           </div>
+                           <div class="col-md-5">
+                              <h1 class="banner_taital">New Model Drone</h1>
+                              <p class="banner_text">Adrone that saves the planet</p>
+                              <div class="contact_bt"><a href="contact.html">Shop Now</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
                </div>
+               <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+               <i class="fa fa-angle-left"></i>
+               </a>
+               <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+               <i class="fa fa-angle-right"></i>
+               </a>
             </div>
          </div>
          <!-- banner section end -->
@@ -187,6 +227,11 @@
          </div>
       </div>
       <!-- footer section end -->
+       <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">We appreciate support from NGOs and non profits to contact us for collaborations.</p>
+         </div>
+      </div>
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>

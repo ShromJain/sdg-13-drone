@@ -392,6 +392,37 @@ button {
     background-color: #ffffff;
 }
 
+
+#main_slider a.carousel-control-prev {
+    left: 88%;
+    top: 60%;
+    background-color: #f7c17b;
+    color: #ffffff;
+}
+
+#main_slider a.carousel-control-next {
+    position: absolute;
+    right: 20px;
+    top: 60%;
+}
+
+#main_slider .carousel-control-prev,
+#main_slider .carousel-control-next {
+    width: 68px;
+    height: 68px;
+    background: #325662;
+    opacity: 1;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#main_slider .carousel-control-prev:hover,
+#main_slider .carousel-control-next:hover,
+#main_slider .carousel-control-prev:focus,
+#main_slider .carousel-control-next:focus {
+    background-color: #f7c17b;
+    color: #ffffff;
+}
 /* banner section end */
 
 
